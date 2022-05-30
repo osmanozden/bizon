@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "bizon_backend"
+version = "0.1.0"
+description = ""
+authors = ["Osman Ozden <ozden.osman@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+peewee = "^3.14.4"
+Flask = "^2.0.2"
+Flask-Admin = "^1.5.8"
+passlib = "^1.7.4"
+PyJWT = "^2.2.0"
+marshmallow = "^3.13.0"
+Flask-Cors = "^3.0.10"
+gunicorn = "^20.1.0"
+webargs = "^8.0.1"
+wtf-peewee = "^3.0.2"
+bcrypt = "^3.2.0"
+orjson = "^3.6.4"
+Flask-Mail = "^0.9.1"
+PySocks = "^1.7.1"
+PyMySQL = "^1.0.2"
+Werkzeug = "^2.1.1"
+Flask-Login = "^0.6.0"
+requests = "^2.27.1"
+ipython = "^8.3.0"
+
+[tool.poetry.dev-dependencies]
+pynvim = "^0.4.3"
+ipdb = "^0.13.9"
+PySnooper = "^1.0.0"
+pytest = "^7.1.1"
+black = "^22.3.0"
+flask2postman = "^1.4.4"
+pysqlite3 = "^0.4.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
