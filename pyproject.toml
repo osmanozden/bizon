@@ -24,7 +24,7 @@ PyMySQL = "^1.0.2"
 Werkzeug = "^2.1.1"
 Flask-Login = "^0.6.0"
 requests = "^2.27.1"
-ipython = "^8.3.0"
+ipython = "^8.10.0"
 
 [tool.poetry.dev-dependencies]
 pynvim = "^0.4.3"
